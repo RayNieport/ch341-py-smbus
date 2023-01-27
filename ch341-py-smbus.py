@@ -326,7 +326,7 @@ class CH341():
 """
 def scan(i2c):
     results = []
-    for i in range(250):
+    for i in range(128):
         r = i2c.detect(i)
         if r: results += [i]
     print("Responses from i2c devices at: ", [hex(a) for a in results])
