@@ -1,3 +1,5 @@
+*Archived because I no longer have access to the device.*
+
 # CH341 I2C Python Library
 
 > Read and write to the I2C bus via the CH341 USB Bridge Controller in I2C/MEM/EPP mode.
